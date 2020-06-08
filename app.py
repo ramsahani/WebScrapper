@@ -66,7 +66,6 @@ def index():
                     custComment = comtag[0].div.text
                 except Exception as e:
                     print("Exception while creating dictionary: ",e)
-
                 mydict = {"Product": searchString, "Name": name, "Rating": rating, "CommentHead": commentHead,
                           "Comment": custComment} # saving that detail to a dictionary
 
